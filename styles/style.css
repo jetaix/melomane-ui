@@ -2,62 +2,38 @@
 /* Variable declaration */
 /* Font-Face declaration */
 @font-face {
-  font-family: 'ExquiseBlack';
-  src: url("./fonts/Exquise/ExquiseFY-Black.eot");
-  src: url("./fonts/Exquise/ExquiseFY-Black.eot") format("embedded-opentype"), url("./fonts/Exquise/ExquiseFY-Black.woff") format("woff"), url("./fonts/Exquise/ExquiseFY-Black.ttf") format("truetype"), url("./fonts/Exquise/ExquiseFY-Black.svg#ExquiseBlack") format("svg"); }
+  font-family: 'futura_md_btbold';
+  src: url("./fonts/futura_bold_bt.eot");
+  src: url("./fonts/futura_bold_bt.eot?#iefix") format("embedded-opentype"), url("./fonts/futura_bold_bt.woff") format("woff"), url("./fonts/futura_bold_bt.ttf") format("truetype"), url("./fonts/futura_bold_bt.svg#futura_md_btbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
-  font-family: 'ExquiseBlackItalic';
-  src: url("./fonts/Exquise/ExquiseFY-BlackItalic.eot");
-  src: url("./fonts/Exquise/ExquiseFY-BlackItalic.eot") format("embedded-opentype"), url("./fonts/Exquise/ExquiseFY-BlackItalic.woff") format("woff"), url("./fonts/Exquise/ExquiseFY-BlackItalic.ttf") format("truetype"), url("./fonts/Exquise/ExquiseFY-BlackItalic.svg#ExquiseBlackItalic") format("svg"); }
+  font-family: 'futura_md_btmedium';
+  src: url("./fonts/futura_md_bt_medium.eot");
+  src: url("./fonts/futura_md_bt_medium.eot?#iefix") format("embedded-opentype"), url("./fonts/futura_md_bt_medium.woff") format("woff"), url("./fonts/futura_md_bt_medium.ttf") format("truetype"), url("./fonts/futura_md_bt_medium.svg#futura_md_btmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
-  font-family: 'ExquiseBold';
-  src: url("./fonts/Exquise/ExquiseFY-Bold.eot");
-  src: url("./fonts/Exquise/ExquiseFY-Bold.eot") format("embedded-opentype"), url("./fonts/Exquise/ExquiseFY-Bold.woff") format("woff"), url("./fonts/Exquise/ExquiseFY-Bold.ttf") format("truetype"), url("./fonts/Exquise/ExquiseFY-Bold.svg#ExquiseBold") format("svg"); }
-
-@font-face {
-  font-family: 'ExquiseBoldItalic';
-  src: url("./fonts/Exquise/ExquiseFY-BoldItalic.eot");
-  src: url("./fonts/Exquise/ExquiseFY-BoldItalic.eot") format("embedded-opentype"), url("./fonts/Exquise/ExquiseFY-BoldItalic.woff") format("woff"), url("./fonts/Exquise/ExquiseFY-BoldItalic.ttf") format("truetype"), url("./fonts/Exquise/ExquiseFY-BoldItalic.svg#ExquiseBoldItalic") format("svg"); }
-
-@font-face {
-  font-family: 'ExquiseItalic';
-  src: url("./fonts/Exquise/ExquiseFY-Italic.eot");
-  src: url("./fonts/Exquise/ExquiseFY-Italic.eot") format("embedded-opentype"), url("./fonts/Exquise/ExquiseFY-Italic.woff") format("woff"), url("./fonts/Exquise/ExquiseFY-Italic.ttf") format("truetype"), url("./fonts/Exquise/ExquiseFY-Italic.svg#ExquiseItalic") format("svg"); }
-
-@font-face {
-  font-family: 'ExquiseRegular';
-  src: url("./fonts/Exquise/ExquiseFY-Regular.eot");
-  src: url("./fonts/Exquise/ExquiseFY-Regular.eot") format("embedded-opentype"), url("./fonts/Exquise/ExquiseFY-Regular.woff") format("woff"), url("./fonts/Exquise/ExquiseFY-Regular.ttf") format("truetype"), url("./fonts/Exquise/ExquiseFY-Regular.svg#ExquiseRegular") format("svg"); }
-
-@font-face {
-  font-family: 'LeanOBlack';
-  src: url("./fonts/LeanO/LeanOSansFY-Black.eot");
-  src: url("./fonts/LeanO/LeanOSansFY-Black.eot") format("embedded-opentype"), url("./fonts/LeanO/LeanOSansFY-Black.woff") format("woff"), url("./fonts/LeanO/LeanOSansFY-Black.ttf") format("truetype"), url("./fonts/LeanO/LeanOSansFY-Black.svg#LeanOBlack") format("svg"); }
-
-@font-face {
-  font-family: 'LeanOBold';
-  src: url("./fonts/LeanO/LeanOSansFY-Bold.eot");
-  src: url("./fonts/LeanO/LeanOSansFY-Bold.eot") format("embedded-opentype"), url("./fonts/LeanO/LeanOSansFY-Bold.woff") format("woff"), url("./fonts/LeanO/LeanOSansFY-Bold.ttf") format("truetype"), url("./fonts/LeanO/LeanOSansFY-Bold.svg#LeanOBold") format("svg"); }
-
-@font-face {
-  font-family: 'LeanOLight';
-  src: url("./fonts/LeanO/LeanOSansFY-Light.eot");
-  src: url("./fonts/LeanO/LeanOSansFY-Light.eot") format("embedded-opentype"), url("./fonts/LeanO/LeanOSansFY-Light.woff") format("woff"), url("./fonts/LeanO/LeanOSansFY-Light.ttf") format("truetype"), url("./fonts/LeanO/LeanOSansFY-Light.svg#LeanOLight") format("svg"); }
-
-@font-face {
-  font-family: 'LeanORegular';
-  src: url("./fonts/LeanO/LeanOSansFY-Regular.eot");
-  src: url("./fonts/LeanO/LeanOSansFY-Regular.eot") format("embedded-opentype"), url("./fonts/LeanO/LeanOSansFY-Regular.woff") format("woff"), url("./fonts/LeanO/LeanOSansFY-Regular.ttf") format("truetype"), url("./fonts/LeanO/LeanOSansFY-Regular.svg#LeanORegular") format("svg"); }
-
-@font-face {
-  font-family: 'LeanOThin';
-  src: url("./fonts/LeanO/LeanOSansFY-Thin.eot");
-  src: url("./fonts/LeanO/LeanOSansFY-Thin.eot") format("embedded-opentype"), url("./fonts/LeanO/LeanOSansFY-Thin.woff") format("woff"), url("./fonts/LeanO/LeanOSansFY-Thin.ttf") format("truetype"), url("./fonts/LeanO/LeanOSansFY-Thin.svg#LeanOThin") format("svg"); }
+  font-family: 'futura_lightregular';
+  src: url("./fonts/futura_light.eot");
+  src: url("./fonts/futura_light.eot?#iefix") format("embedded-opentype"), url("./fonts/futura_light.woff") format("woff"), url("./fonts/futura_light.ttf") format("truetype"), url("./fonts/futura_light.svg#futura_lightregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 html {
   font-size: 100%; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-height: 100%; }
+
+ul {
+  margin: 0;
+  padding: 0; }
 
 body {
   -moz-font-feature-settings: "liga=1";
@@ -77,6 +53,7 @@ body {
   float: right; }
 
 header {
+  position: fixed;
   width: 100%;
   background-color: #fff;
   height: 50px; }
@@ -96,9 +73,11 @@ header {
     color: #000;
     text-transform: uppercase; }
     header #sound #title {
-      font-size: 12px; }
+      font-size: 12px;
+      font-family: 'futura_md_btbold'; }
     header #sound #author {
-      font-size: 11px; }
+      font-size: 11px;
+      font-family: 'futura_md_btmedium'; }
     header #sound #time {
       margin-left: 40px;
       position: relative;
@@ -123,3 +102,78 @@ header {
       margin: 0 10px; }
   header #search {
     margin-right: 30px; }
+
+main {
+  overflow: hidden;
+  width: 5000px;
+  padding-top: 50px; }
+
+.sound-wrapper {
+  width: 230px;
+  height: 230px;
+  margin: 1px;
+  background-image: url("../images/cover/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left; }
+  .sound-wrapper.big {
+    width: 462px;
+    height: 462px; }
+  .sound-wrapper.middle {
+    width: 462px;
+    height: 462px; }
+
+.sound {
+  padding: 15px;
+  height: 200px;
+  color: #FFF;
+  text-transform: uppercase;
+  position: relative; }
+  .sound .share {
+    opacity: 0;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear; }
+    .sound .share ul li {
+      display: inline-block;
+      float: left;
+      height: 20px;
+      width: 30px;
+      background-repeat: no-repeat;
+      background-position: center; }
+      .sound .share ul li:nth-child(1) {
+        background-image: url("../images/social/fb.png"); }
+      .sound .share ul li:nth-child(2) {
+        background-image: url("../images/social/tw.png"); }
+      .sound .share ul li:nth-child(3) {
+        background-image: url("../images/social/like.png"); }
+      .sound .share ul li a {
+        display: block;
+        height: 20px;
+        width: 30px; }
+  .sound .category {
+    font-family: 'futura_md_btmedium';
+    font-size: 16px; }
+  .sound .description {
+    position: absolute;
+    bottom: 75px; }
+  .sound .title {
+    position: relative;
+    clear: both;
+    font-family: 'futura_lightregular';
+    font-size: 20px; }
+  .sound .author {
+    font-family: 'futura_lightregular';
+    font-size: 16px; }
+  .sound .bt-play {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 35px;
+    height: 40px;
+    background-image: url("../images/play-l.png");
+    background-position: center;
+    cursor: pointer; }
+  .sound:hover .share {
+    opacity: 1; }
