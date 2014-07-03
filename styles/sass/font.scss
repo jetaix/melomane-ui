@@ -1,0 +1,93 @@
+@import 'var';
+
+/* Font-Face declaration */
+@font-face {
+    font-family: 'ExquiseBlack';
+    src: url('#{$font-url}/Exquise/ExquiseFY-Black.eot');
+    src: url('#{$font-url}/Exquise/ExquiseFY-Black.eot') format('embedded-opentype'),
+         url('#{$font-url}/Exquise/ExquiseFY-Black.woff') format('woff'),
+         url('#{$font-url}/Exquise/ExquiseFY-Black.ttf') format('truetype'),
+         url('#{$font-url}/Exquise/ExquiseFY-Black.svg#ExquiseBlack') format('svg');
+}
+@font-face {
+    font-family: 'ExquiseBlackItalic';
+    src: url('#{$font-url}/Exquise/ExquiseFY-BlackItalic.eot');
+    src: url('#{$font-url}/Exquise/ExquiseFY-BlackItalic.eot') format('embedded-opentype'),
+         url('#{$font-url}/Exquise/ExquiseFY-BlackItalic.woff') format('woff'),
+         url('#{$font-url}/Exquise/ExquiseFY-BlackItalic.ttf') format('truetype'),
+         url('#{$font-url}/Exquise/ExquiseFY-BlackItalic.svg#ExquiseBlackItalic') format('svg');
+}
+@font-face {
+    font-family: 'ExquiseBold';
+    src: url('#{$font-url}/Exquise/ExquiseFY-Bold.eot');
+    src: url('#{$font-url}/Exquise/ExquiseFY-Bold.eot') format('embedded-opentype'),
+         url('#{$font-url}/Exquise/ExquiseFY-Bold.woff') format('woff'),
+         url('#{$font-url}/Exquise/ExquiseFY-Bold.ttf') format('truetype'),
+         url('#{$font-url}/Exquise/ExquiseFY-Bold.svg#ExquiseBold') format('svg');
+}
+@font-face {
+    font-family: 'ExquiseBoldItalic';
+    src: url('#{$font-url}/Exquise/ExquiseFY-BoldItalic.eot');
+    src: url('#{$font-url}/Exquise/ExquiseFY-BoldItalic.eot') format('embedded-opentype'),
+         url('#{$font-url}/Exquise/ExquiseFY-BoldItalic.woff') format('woff'),
+         url('#{$font-url}/Exquise/ExquiseFY-BoldItalic.ttf') format('truetype'),
+         url('#{$font-url}/Exquise/ExquiseFY-BoldItalic.svg#ExquiseBoldItalic') format('svg');
+}
+@font-face {
+    font-family: 'ExquiseItalic';
+    src: url('#{$font-url}/Exquise/ExquiseFY-Italic.eot');
+    src: url('#{$font-url}/Exquise/ExquiseFY-Italic.eot') format('embedded-opentype'),
+         url('#{$font-url}/Exquise/ExquiseFY-Italic.woff') format('woff'),
+         url('#{$font-url}/Exquise/ExquiseFY-Italic.ttf') format('truetype'),
+         url('#{$font-url}/Exquise/ExquiseFY-Italic.svg#ExquiseItalic') format('svg');
+}
+@font-face {
+    font-family: 'ExquiseRegular';
+    src: url('#{$font-url}/Exquise/ExquiseFY-Regular.eot');
+    src: url('#{$font-url}/Exquise/ExquiseFY-Regular.eot') format('embedded-opentype'),
+         url('#{$font-url}/Exquise/ExquiseFY-Regular.woff') format('woff'),
+         url('#{$font-url}/Exquise/ExquiseFY-Regular.ttf') format('truetype'),
+         url('#{$font-url}/Exquise/ExquiseFY-Regular.svg#ExquiseRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'LeanOBlack';
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Black.eot');
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Black.eot') format('embedded-opentype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Black.woff') format('woff'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Black.ttf') format('truetype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Black.svg#LeanOBlack') format('svg');
+}
+@font-face {
+    font-family: 'LeanOBold';
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Bold.eot');
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Bold.eot') format('embedded-opentype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Bold.woff') format('woff'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Bold.ttf') format('truetype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Bold.svg#LeanOBold') format('svg');
+}
+@font-face {
+    font-family: 'LeanOLight';
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Light.eot');
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Light.eot') format('embedded-opentype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Light.woff') format('woff'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Light.ttf') format('truetype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Light.svg#LeanOLight') format('svg');
+}
+@font-face {
+    font-family: 'LeanORegular';
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Regular.eot');
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Regular.eot') format('embedded-opentype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Regular.woff') format('woff'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Regular.ttf') format('truetype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Regular.svg#LeanORegular') format('svg');
+}
+@font-face {
+    font-family: 'LeanOThin';
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Thin.eot');
+    src: url('#{$font-url}/LeanO/LeanOSansFY-Thin.eot') format('embedded-opentype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Thin.woff') format('woff'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Thin.ttf') format('truetype'),
+         url('#{$font-url}/LeanO/LeanOSansFY-Thin.svg#LeanOThin') format('svg');
+}
+
